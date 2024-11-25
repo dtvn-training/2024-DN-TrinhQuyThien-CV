@@ -232,7 +232,6 @@ h3 {
     border-radius: 50%;
 }
 
-
 .education-info-time>li::after,
 .experience-info-time>li::after,
 .project-info-time>li::after {
@@ -332,7 +331,6 @@ h3 {
     background-color: var(--hover-background-color);
     cursor: pointer;
 }
-
 
 .skill-container ul {
     list-style: none;
