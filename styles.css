@@ -403,27 +403,6 @@ h3 {
     transform: scale(1.1);
 }
 
-@media (max-width: 1090px) {
-    .project-header,
-    .education-header,
-    .experience-header {
-        display: block;
-    }
-}
-
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        padding: 10px 10px;
-    }
-    .left-sidebar {
-        width: auto;
-    }
-    .main-content {
-        width: auto;
-    }
-}
-
 .footer-content {
     color: var(--footer-text-color);
     text-align: center;
@@ -458,4 +437,25 @@ h3 {
 
 .footer-links a:hover {
     color: var(--footer-hover-color);
+}
+
+@media (max-width: 1090px) {
+    .project-header,
+    .education-header,
+    .experience-header {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+    .left-sidebar {
+        width: auto;
+    }
+    .main-content {
+        width: auto;
+    }
 }
